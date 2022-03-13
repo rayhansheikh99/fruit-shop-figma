@@ -1,0 +1,122 @@
+.banner-img {
+  height: 250px;
+}
+.btn-search {
+  margin-left: -7% !important;
+  background-color: gray;
+  color: azure;
+  border: none;
+  z-index: 1000;
+}
+.search-input {
+  width: 80%;
+  padding-left: 15px;
+  border: solid 1px gray;
+}
+.user {
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.search-input:focus {
+  background-color: #c4c7c400;
+  outline: none;
+}
+.zindex-dropdown {
+  z-index: 1000;
+}
+.star-icon {
+  color: rgb(224, 213, 50);
+}
+.new {
+  top: 5%;
+  left: 8%;
+}
+/* Dropdown Button */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown a {
+  text-decoration: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #c4c7c4;
+}
+
+.icon-support {
+  color: rgb(144, 167, 111);
+  background-color: rgba(136, 231, 136, 0.288);
+}
+
+.footer-bg {
+  background-color: rgb(214, 211, 211);
+}
+.footer-img {
+  width: 20%;
+}
+.footer-pay {
+  width: 60px;
+  height: 20px;
+  margin-left: 5px;
+}
+.footer-list ul li {
+  list-style: none;
+}
+.footer-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-img {
+    height: auto;
+  }
+  .support {
+    display: grid;
+    justify-content: center;
+  }
+  .btn-search {
+    margin-left: -10% !important;
+    background-color: gray;
+    color: azure;
+    border: none;
+    z-index: 1000;
+  }
+}

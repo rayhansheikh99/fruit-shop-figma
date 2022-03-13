@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bf149bc3b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit Shop</title>
+</head>
+<body>
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-3">
+               <h1>navbar</h1>
+            </div>
+            <div class="col-9">
+
+                <header class="">
+                    <div class="row support">
+                            <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="search" class="rounded-pill search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                                <button type="button" class="btn btn-outline-primary rounded-pill btn-search">Search</button>
+                            </div>
+                            </div>
+                              <div class="col-md-6 d-flex justify-content-end">
+                                <p><i class="fa-regular fa-heart "></i><i class="fa-solid fa-cart-plus mx-4"></i><i class="fa-regular fa-user me-2 ms-2 px-3 py-3 user"></i>Account</p>
+                              </div>
+                    </div>
+                    <div class="mb-4">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarCollapse">
+                                    <div class="navbar-nav">
+                                          <div class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Home</a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                              </div>
+                                        </div>
+                                          <div class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Shop</a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                              </div>
+                                        </div>
+                                          <div class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                              </div>
+                                        </div>
+                                          <div class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                              </div>
+                                        </div>
+                                        <a href="#" class="nav-item nav-link ">Contact</a>
+                                        <a href="#" class="nav-item nav-link ">Track Order</a>
+                                    </div>
+                                    <div class="navbar-nav ms-auto">
+                                        <a href="#" class="nav-item nav-link text-danger">% Special Offers!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <img class=" banner-img rounded w-100" src="/images/banner.jpg" alt="banner">
+                </header>
+                <h4 class="my-3">Fruits Collection</h4>
+                <div class="row support">
+                <div class="col-md-6">
+                <p class="">Fruits | Green Fruits | <b>Fresh Fruits</b></p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end title-menu">
+                <p><b>20</b> Products Found <i class="fas fa-bars bars-sort mx-2"></i><i class="fas fa-grip"></i> </p>
+                <div class="dropdown">
+                    <button class="dropbtn">Default Sorting<i class="fa fa-caret-down text-dark ms-2"></i></button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                <div class="">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="images/banana.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Banana</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                              <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/anar.png" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Anar</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/grape.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Grape</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/lychi.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Lychee</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/orange.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Orange</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/pineapple.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Pineapple</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/grape.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Grape</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/banana.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                            </div>
+                              <h5 class="card-title text-center mt-1">Banana</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class=" h-100 position-relative">
+                            <p class="position-absolute new bg-dark text-white ps-3 pe-2 py-1 rounded">New</p>
+                            <img src="/images/lychi.jpg" class="card-img-top h-50" alt="...">
+                            <div class="card-body">
+                                <p class="text-center text-secondary">Category Name</p>
+                                <div class="text-center">
+                                <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i> <i class="fas fa-star star-icon"></i><i class="fas fa-star-half star-icon"></i><span>(21)</span>
+                                </div>
+                              <h5 class="card-title text-center mt-1">Lychee</h5>
+                              <div class="text-center d-flex justify-content-around mx-4 ">
+                                <span class="fw-bold fs-5 text-danger">$ 200.00</span> <del class="fs-5 text-secondary">$300.00</del>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button class="px-5 py-3 bg-success text-white rounded-pill border-0">Load More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+       <section class="row my-5 support">
+        <div class="d-flex col-md-3">
+            <i class="fa-solid fa-puzzle-piece my-2 fs-1 me-4 icon-support px-3 pt-2 rounded"></i>
+           <div>
+               <h5>24 Customer Support</h5>
+               <p>Contact us 24 hours</p>
+           </div>
+        </div>
+        <div class="d-flex col-md-3">
+            <i class="fa-solid fa-puzzle-piece my-2 fs-1 me-4 icon-support px-3 pt-2 rounded"></i>
+           <div>
+               <h5>Authentic Products</h5>
+               <p>Contact us 24 hours</p>
+           </div>
+        </div>
+        <div class="d-flex col-md-3">
+            <i class="fa-solid fa-puzzle-piece my-2 fs-1 me-4 icon-support px-3 pt-2 rounded"></i>
+           <div>
+               <h5>Secure Payment</h5>
+               <p>Contact us 24 hours</p>
+           </div>
+        </div>
+        <div class="d-flex col-md-3">
+            <i class="fa-solid fa-puzzle-piece my-2 fs-1 me-4 icon-support px-3 pt-2 rounded"></i>
+           <div>
+               <h5>Best Prices & Offers</h5>
+               <p>Contact us 24 hours</p>
+           </div>
+        </div>
+       </section>
+
+
+       <footer class="footer-bg pt-4 px-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3><i class="fa-solid fa-store me-2"></i>Bengal Shop</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ipsam maiores itaque voluptatem excepturi quas, libero harum, qui reprehenderit rem quae dignissimos ea minima consectetur obcaecati tempore a voluptatum quam.</p>
+                <img class="footer-img" src="/images/google.png" alt="">
+                <img class="footer-img" src="/images/apple.png" alt="">
+            </div>
+            <div class="col-md-6 d-flex row justify-content-center ">
+            <div class="col-6 footer-list">
+                <h5 class="">About Us</h5>
+                <ul class="">
+                    <li>About karte</li>
+                    <li>Contact</li>
+                    <li>Career</li>
+                    <li>Terms & Conditions</li>
+                    <li>Category</li>
+                </ul>
+            </div>
+            <div class="footer-list col-6">
+                <h5>Info</h5>
+                <ul class="">
+                    <li>Information</li>
+                    <li>Shipping</li>
+                    <li>Payment</li>
+                    <li>Return</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f text-white bg-danger fs-3 p-2 rounded"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram text-secondary bg-white fs-3 ms-3 p-2 rounded"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter text-secondary bg-white fs-3 mx-3 p-2 rounded"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-skype text-secondary bg-white fs-3 p-2 rounded"></i></a>
+            </div>
+            <div class="col-md-4 ">
+                <p>&copy 2022 Copyright All Right Reserved by Bengal Shop</p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                <img class="footer-pay" src="/images/paypal.png" alt="">
+                <img class="footer-pay" src="/images/visa.png" alt="">
+                <img class="footer-pay" src="/images/ipay.png" alt="">
+                <img class="footer-pay" src="/images/gpay.png" alt="">
+            </div>
+        </div>
+    </footer>
+    </section>
+
+    
+
+
+
+
+    
+    <script src="/main.js"></script>
+</body>
+</html>
