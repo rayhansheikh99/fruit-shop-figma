@@ -1,4 +1,4 @@
-
+// modal js 
 const openModalBtn = document.querySelectorAll(".open-modal")
 console.log(openModalBtn)
 const modal = document.getElementById("modal")
@@ -19,7 +19,7 @@ for(let i = 0; i< openModalBtn.length; i++) {
     openModalBtn[i].addEventListener("click", openModal)
 }
 
-
+// side navbar js 
 const toggleIcon = document.getElementById('toggleIcon');
 const sidemenu = document.getElementById('sidemenu');
 const openMenu = document.getElementById('openMenu');
