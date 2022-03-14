@@ -1,3 +1,4 @@
+/* side menu  */
 .sidemenu {
   position: relative;
   width: 90%;
@@ -106,6 +107,7 @@
   width: 5px;
 }
 
+/* banner section  */
 .banner-img {
   height: 250px;
 }
@@ -195,6 +197,8 @@
 .dropdown:hover .dropbtn {
   background-color: #c4c7c4;
 }
+
+/* image design  */
 .img-container {
   position: relative;
   width: 100%;
@@ -202,11 +206,12 @@
 .img-item {
   opacity: 1;
   display: block;
-  /* width: 100%; */
   height: 200px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+
+/* cart image design  */
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -224,7 +229,6 @@
   opacity: 1;
 }
 .text {
-  /* background-color: #04aa6d; */
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -251,11 +255,11 @@
   background-color: rgba(136, 231, 136, 0.288);
 }
 
+/* modal design part  */
 #open-modal {
   background-color: rgb(53, 161, 53);
   color: #f1f1f1;
   border: none;
-  /* border-radius: 20%; */
   padding: 10px 20px;
 }
 
@@ -311,12 +315,12 @@
   font-size: 1.8rem;
 }
 
+/* icon design  */
 .icon-mp {
   padding: 5px 13px;
   background-color: #fbfffb;
   outline: solid 1px gray;
   border-radius: 50%;
-  /* font-size: 25px; */
 }
 .icon-mp2 {
   padding: 5px 13px;
@@ -330,6 +334,8 @@
   border: none;
   color: #fff;
 }
+
+/* footer design  */
 .footer-bg {
   background-color: rgb(214, 211, 211);
 }
@@ -349,6 +355,7 @@
   padding: 0;
 }
 
+/* responsive for small device  */
 @media only screen and (max-width: 600px) {
   .banner-img {
     height: auto;
@@ -383,8 +390,4 @@
   .side {
     display: none;
   }
-  /* .menu_item {
-    z-index: 1000;
-    width: 100%;
-  } */
 }
