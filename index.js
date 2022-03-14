@@ -18,3 +18,22 @@ const openModal = function() {
 for(let i = 0; i< openModalBtn.length; i++) {
     openModalBtn[i].addEventListener("click", openModal)
 }
+
+
+const toggleIcon = document.getElementById('toggleIcon');
+const sidemenu = document.getElementById('sidemenu');
+const openMenu = document.getElementById('openMenu');
+toggleIcon.addEventListener('click', () => {
+    sidemenu.classList.toggle('collapseMenu');
+    document.querySelectorAll('.toggleMenu').forEach(function(element) {
+        element.classList.remove('toggleMenu');
+    });
+});
+const arrow = document.querySelectorAll('.fa-angle-down');
+for (let i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener('click', e => {
+        e.target.classList.toggle('changeDirection');
+        let arrowParent = e.target.parentElement.parentElement;
+        arrowParent.classList.toggle('toggleMenu');
+    });
+}
