@@ -79,10 +79,144 @@
 .dropdown:hover .dropbtn {
   background-color: #c4c7c4;
 }
-
+.img-container {
+  position: relative;
+  width: 100%;
+}
+.img-item {
+  opacity: 1;
+  display: block;
+  /* width: 100%; */
+  height: 200px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-container:hover .img-item {
+  opacity: 0.3;
+}
+.img-container:hover .middle {
+  opacity: 1;
+}
+.text {
+  /* background-color: #04aa6d; */
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.cart-mp {
+  background-color: rgba(0, 0, 0, 0.781);
+  border-radius: 50%;
+  padding: 4px 11px;
+}
+.cart1 {
+  background-color: rgb(12, 12, 12);
+  border-radius: 60%;
+  padding: 4px 10px;
+}
+.middle button {
+  background-color: rgb(53, 161, 53);
+  color: #f1f1f1;
+  border: none;
+  border-radius: 20%;
+  padding: 10px 20px;
+}
 .icon-support {
   color: rgb(144, 167, 111);
   background-color: rgba(136, 231, 136, 0.288);
+}
+
+#open-modal {
+  /* position: absolute;
+  top: 2%;
+  right: 5%;
+
+  border: none;
+  background-color: transparent;
+  font-size: 4.2rem;
+  cursor: pointer;
+  color: rebeccapurple; */
+  background-color: rgb(53, 161, 53);
+  color: #f1f1f1;
+  border: none;
+  /* border-radius: 20%; */
+  padding: 10px 20px;
+}
+
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 70%;
+  /* height: 50%; */
+  pointer-events: none;
+}
+#modal.show {
+  opacity: 1;
+  z-index: 100;
+  pointer-events: auto;
+}
+.btn-container {
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#close-modal {
+  border: none;
+  font-size: 4.2rem;
+  background-color: transparent;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4rem 4rem 8rem rgba(0, 0, 0, 0.6);
+  padding: 2.2rem;
+}
+
+.img-details {
+  border: solid 1px gray;
+}
+
+.modal-title {
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+.modal-description {
+  font-size: 1.8rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+
+.hidden {
+  display: none;
 }
 
 .footer-bg {
